@@ -1,70 +1,59 @@
-# Getting Started with Create React App
+# Visualize Data with a Treemap Diagram
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was created to pass [FCC](https://www.freecodecamp.org/) Visualize Data with a Treemap Diagram Challenge.
+
 
 ## Available Scripts
 
-In the project directory, you can run:
+project [gh-page](https://alialghanay.github.io/treemap-diagram/).
 
-### `npm start`
+## Project User Story 
+### 1: 
+My tree map should have a title with a corresponding `id="title"`.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 2:
+My tree map should have a description with a corresponding `id="description"`.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 3:
+My tree map should have `rect` elements with a corresponding `class="tile"` that represent the data.
+### 4:
+There should be at least 2 different fill colors used for the tiles.
 
-### `npm test`
+### 5:
+Each tile should have the properties `data-name`, `data-category`, and `data-value` containing their corresponding `name`, `category`, and `value`.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 6:
+ The area of each tile should correspond to the `data-value` amount: tiles with a larger `data-value` should have a bigger area.
 
-### `npm run build`
+### 7:
+My tree map should have a legend with corresponding `id="legend"`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 8:
+My legend should have `rect` elements with a corresponding `class="legend-item"`.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 9:
+The `rect` elements in the legend should use at least 2 different fill colors.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 10:
+ I can mouse over an area and see a tooltip with a corresponding `id="tooltip"` which displays more information about the area.
 
-### `npm run eject`
+### 11:
+My tooltip should have a `data-value` property that corresponds to the `data-value` of the active area.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+For this project you can use any of the following datasets:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- [Kickstarter Pledges](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/kickstarter-funding-data.json).
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- [Movie Sales](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/movie-data.json).
 
-## Learn More
+- [Video Game Sales](https://cdn.freecodecamp.org/testable-projects-fcc/data/tree_map/video-game-sales-data.json).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## testing the project.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+you can test the project if it passing user story by downloading it and then add this:
+`<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>`
+to:
+> .\public\index.html
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# this project made by @alialghanay.
