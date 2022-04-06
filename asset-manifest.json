@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/treemap-diagram/static/css/main.7490e32b.css",
+    "main.js": "/treemap-diagram/static/js/main.329d68d9.js",
+    "static/js/787.02c11d47.chunk.js": "/treemap-diagram/static/js/787.02c11d47.chunk.js",
+    "index.html": "/treemap-diagram/index.html",
+    "main.7490e32b.css.map": "/treemap-diagram/static/css/main.7490e32b.css.map",
+    "main.329d68d9.js.map": "/treemap-diagram/static/js/main.329d68d9.js.map",
+    "787.02c11d47.chunk.js.map": "/treemap-diagram/static/js/787.02c11d47.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7490e32b.css",
+    "static/js/main.329d68d9.js"
+  ]
+}
