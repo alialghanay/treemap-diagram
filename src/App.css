@@ -13,12 +13,19 @@
   stroke: black;
 }
 
+
+.text {
+  font-size: 1.2rem;
+}
+
 #tooltip {
   visibility: hidden;
   position: absolute;
   background-color: #282c34;
   border-radius: 0.5rem;
+  color: #fff;
 }
+
 
 .App-logo {
   height: 40vmin;
